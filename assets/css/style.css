@@ -83,50 +83,56 @@ header nav ul li a:hover {
     border-radius: 50px;
     text-shadow: 0 0 20px rgba(13,13,13,.5);
 }
-/*END HEADER STYLING*/
+/*----END HEADER STYLING----*/
 
+
+/*----START BIO-WORK-CONTACT SECTION----*/
+
+.b-w-c {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+
+}
 
 /*Start Bio Styling*/
-
 aside {
     background-color: var(--primary-color);
     float: left;
-    width: 300px;
+    width: 25%;
     padding: 30px 30px;
     border: solid var(--fourth-color);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
 }
-
 aside h2 {
     color: var(--second-color);
     font-family: stilltime;
     font-size: 40px;
     text-align: center;
 }
-
 aside img {
     width: 100%;
     height: auto;
     size: contain;
 }
-
 aside p {
     color: var(--third-color);
     text-align: center;
 }
+/*END BIO*/
 
-/*START WORK -CONTACT SECTION*/
-.work-contact {
-    width: 71.6%;
+/*START MY WORK*/
+.my-work {
+    width: 73%;
     height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     float: right;
+    background-color: black;
+    color: var(--primary-color);
+    border:var(--fourth-color) solid;
 }
-
 .my-work h2 {
     color: var(--second-color);
     font-family: stilltime;
@@ -134,41 +140,31 @@ aside p {
     font-size: 40px;
     text-align: center;
 }
-
-
 .my-work img {
     height: auto;
     width: 80%;
 
 }
-
 .responsive {
     width: 100%;
     height: auto;
 }
-
-.my-work {
-    background-color: black;
-    color: var(--primary-color);
-    border:var(--fourth-color) solid;
-}
+/*END MY WORK*/
 
 
-/*END WORK- CONTACT SECTION*/
+/*----END BIO-WORK-CONTACT SECTION----*/
 
 
-/*START FOOTER*/
-
+/*----START FOOTER----*/
 .footer {
     padding: 40px;
     font-family: stilltime;
     font-size: 30px;
     color: var(--second-color);
     background-color: black;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-/*END FOOTER*/
+/*----END FOOTER----*/
