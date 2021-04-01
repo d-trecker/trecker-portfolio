@@ -122,6 +122,7 @@ aside h2 {
     font-family: stilltime;
     font-size: 40px;
     text-align: center;
+    border-bottom: solid var(--second-color);
 }
 aside img {
     width: 100%;
@@ -131,6 +132,7 @@ aside img {
 aside p {
     color: var(--third-color);
     text-align: center;
+    padding: 10px 10px;
 }
 /*END BIO*/
 
@@ -146,10 +148,10 @@ aside p {
 .my-work h2 {
     color: var(--second-color);
     font-family: stilltime;
-    padding: 40px;
+    padding: 20px;
     font-size: 40px;
     text-align: center;
-    border-bottom: var(--second-color);
+    border-bottom: solid var(--second-color);
 }
 .my-work h3 {
     font-family: storytime;
@@ -164,10 +166,16 @@ aside p {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    padding: 20px;
 }
 .responsive {
     width: 100%;
     height: auto;
+}
+
+.coming-soon {
+    width: 50%;
+    height: 50%;
 }
 /*END MY WORK*/
 
