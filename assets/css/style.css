@@ -29,16 +29,15 @@ body {
     font-family: helvetica, arial, sans-serif;
     color: var(--primary-color);
 }
-
+/*----START HEADER----*/
 header {
     padding: 10px 30px;
-    background-color: var(--primary-color);
+    background-color: black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: column;
 }
-
 header h1 {
     font: 70px bold;
     font-family: stilltime;
@@ -48,16 +47,13 @@ header h1 {
     text-shadow: 0 0 10px rgba(255, 143, 31, 0.897);
     text-align: center;
 }
-
 header a {
     text-decoration: none;
     color: var(--second-color);
 }
-
 header nav {
     margin: 7px 0;
 }
-
 header nav ul{
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +61,6 @@ header nav ul{
     align-items: center;
     list-style: none;
 }
-
 header nav ul li a {
     margin: 10px 15px;
     font-family: storytime;
@@ -74,14 +69,13 @@ header nav ul li a {
     padding: 10px 15px;
     text-shadow: 0 0 10px rgba(255, 143, 31, 0.897);
 }
-
 header nav ul li a:hover {
     background-color: rgba(253, 73, 217, 0.158);
     padding-left: 10px;
     padding-right: 10px;
     color: var(--secondary-color);
     border-radius: 50px;
-    text-shadow: 0 0 20px rgba(13,13,13,.5);
+    text-shadow: 0 0 20px rgba(180, 178, 178, 0.5);
 }
 /*----END HEADER STYLING----*/
 
@@ -105,7 +99,6 @@ aside {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
 }
 aside h2 {
     color: var(--second-color);
@@ -140,10 +133,19 @@ aside p {
     font-size: 40px;
     text-align: center;
 }
+.my-work h3 {
+    font-family: storytime;
+    color: var(--third-color);
+    text-align: left;
+    font-size: 30px;
+}
+
 .my-work img {
     height: auto;
     width: 80%;
-
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .responsive {
     width: 100%;
@@ -151,6 +153,17 @@ aside p {
 }
 /*END MY WORK*/
 
+/*START CONTACT*/
+.contact {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--second-color);
+    background-color: var(--primary-color);
+    border: var(--fourth-color) solid;
+}
+/*END CONTACT*/
 
 /*----END BIO-WORK-CONTACT SECTION----*/
 
@@ -166,5 +179,6 @@ aside p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border:solid var(--fourth-color);
 }
 /*----END FOOTER----*/
