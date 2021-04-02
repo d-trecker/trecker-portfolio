@@ -226,40 +226,46 @@ aside p {
     @media screen and (max-width:768px) {
         header h1 {
         font-size: 10vw;
-    }
+        }
         aside h2 {
         font-size: 25px;
-    }
+        }
         .my-work h2 {
             font-size: 8vw;
         }
         .my-work h3 {
             font-size: 4vw;
         }
-}
+    }
     @media screen and (max-width: 575px) {
+        .header {
+            flex-wrap: wrap;
+            flex: 100%;
+        }
         .header ul {
-        font-size: 10vw;
-    }
-    .b-w-c {
-        flex-wrap: wrap;
-    }
-    .aside  {
-        flex: 0 100%;
-        align-items: stretch;
-        float: none;
-        order: 1;
-    }
-    .my-work{
-        flex: 1 100%;
-        order: 2;
-    }
-    .my-work h2 {
-        text-align: center;
-        flex: 100%;
-    }
-    .contact {
-        font-size: 2.5vw;
-    }
+            font-size: 10vw;
+        }
+        .b-w-c {
+            flex-wrap: wrap;
+        }
+        .aside  {
+            flex: 0 100%;
+            align-items: center;
+            float: none;
+            order: 1;
+            width: 100%;
+        }
+        .my-work{
+            flex: 1 100%;
+            order: 2;
+        }
+        .my-work h2 {
+            text-align: center;
+            flex: 100%;
+        }
+        .contact {
+            flex: 100%;
+            font-size: 2.5vw;
+        }
     
-}
+    }
