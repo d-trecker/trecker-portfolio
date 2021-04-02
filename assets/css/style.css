@@ -251,9 +251,10 @@ aside p {
         .aside  {
             flex: 100%;
             align-items: center;
-            float: none;
-         
+            float: left;
             width: 100%;
+            
+            
         }
         .my-work{
             flex: 1 100%;
