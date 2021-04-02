@@ -249,7 +249,7 @@ aside p {
             flex-wrap: wrap;
         }
         .aside  {
-            flex: 0 100%;
+            flex: 100%;
             align-items: center;
             float: none;
             order: 1;
