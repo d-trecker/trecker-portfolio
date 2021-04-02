@@ -246,11 +246,15 @@ aside p {
     }
     .aside  {
         flex: 0 100%;
-        align-items: auto;
+        align-items: stretch;
         float: none;
     }
     .my-work{
         flex: 1 100%;
+    }
+    .my-work h2 {
+        text-align: center;
+        flex: 100%;
     }
     .contact {
         font-size: 2.5vw;
