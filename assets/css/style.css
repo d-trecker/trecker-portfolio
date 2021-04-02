@@ -67,7 +67,7 @@ header nav ul li a {
     margin: 10px 15px;
     font-family: storytime;
     font-size: 2.55vw;
-    padding: 10px 15px;
+    padding: 2px 2px;
     text-shadow: 0 0 10px rgba(255, 143, 31, 0.897);
 }
 header nav ul li a:hover {
@@ -240,12 +240,17 @@ header nav ul li a:hover {
     }
     @media screen and (max-width: 575px) {
         .header {
-            flex-wrap: wrap;
-            flex: 100%;
+            border: solid 2px var(--fourth-color);
+            
+        }
+        .header h1 {
+            font-size: 1500px;
         }
         .header ul {
             font-size: 10vw;
         }
+
+        
         .b-w-c {
             flex-wrap: wrap;
             justify-content: center;
