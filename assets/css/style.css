@@ -241,8 +241,19 @@ aside p {
         .header ul {
         font-size: 10vw;
     }
+    .b-w-c {
+        flex-wrap: wrap;
+    }
+    .aside {
+        flex: 0 100%;
+    }
+    .my-work {
+        flex: 1 100%;
+    }
+
     .contact {
         font-size: 2.5vw;
+        flex: 100%;
     }
     
 }
