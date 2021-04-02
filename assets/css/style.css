@@ -248,9 +248,11 @@ aside p {
         flex: 0 100%;
         align-items: stretch;
         float: none;
+        order: 1;
     }
     .my-work{
         flex: 1 100%;
+        order: 2;
     }
     .my-work h2 {
         text-align: center;
