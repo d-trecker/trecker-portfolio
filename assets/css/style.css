@@ -246,6 +246,7 @@ aside p {
     }
     .aside  {
         flex: 0 100%;
+        align-items: auto;
     }
     .my-work{
         flex: 1 100%;
