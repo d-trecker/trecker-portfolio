@@ -252,12 +252,12 @@ aside p {
             flex: 100%;
             align-items: center;
             float: none;
-            order: 1;
+         
             width: 100%;
         }
         .my-work{
             flex: 1 100%;
-            order: 2;
+            order: 1;
         }
         .my-work h2 {
             text-align: center;
