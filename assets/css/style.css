@@ -147,7 +147,7 @@ header nav ul li a:hover {
     font-size: 55px;
     text-align: left;
     text-shadow: 0 0 5px rgba(255, 143, 31, 0.897);
-    border-bottom: solid 5px var(--second-color);
+    border-bottom: solid 5px var(--fourth-color);
 }
 .my-work h3 {
     font-family: storytime;
@@ -228,9 +228,6 @@ header nav ul li a:hover {
         header h1 {
         font-size: 10vw;
         }
-        aside h2 {
-        font-size: 25px;
-        }
         .my-work h2 {
             font-size: 8vw;
         }
@@ -239,18 +236,16 @@ header nav ul li a:hover {
         }
     }
     @media screen and (max-width: 575px) {
-        .header {
-            border: solid 2px var(--fourth-color);
-            
+        header {
+            border: solid 5px var(--fourth-color);
         }
-        .header h1 {
-            font-size: 1500px;
+        header h1 {
+            font-size: 15vw;
         }
-        .header ul {
-            font-size: 10vw;
+        header nav ul li a {
+            font-size: 3vw;
+            text-align: center;
         }
-
-        
         .b-w-c {
             flex-wrap: wrap;
             justify-content: center;
@@ -261,8 +256,13 @@ header nav ul li a:hover {
             align-items: center;
             width: 100%;
         }
-
-        
+        .bio h2 {
+            font-size: 8vw;
+        }
+        .bio p 
+        {
+            text-align: center;
+        }
         .my-work{
             flex: 1 100%;
             order: 1;
@@ -270,9 +270,18 @@ header nav ul li a:hover {
         .my-work h2 {
             text-align: center;
             flex: 100%;
+            font: 8vw;
         }
-        .contact {
+        .contact{
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: center;
+        }
+        .contact h2 {
             flex: 100%;
+            font-size: 5vw;
         }
-    
+        .contact p {
+            font-size: 3vw;
+        }
     }
