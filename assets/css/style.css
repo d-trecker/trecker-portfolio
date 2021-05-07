@@ -176,6 +176,30 @@ header nav ul li a:hover {
     width: 40%;
     height: auto;
 }
+
+.quiz-time {
+    border: solid var(--fourth-color);
+    width: 40%;
+    height: auto;
+}
+
+.dtreck-scheduler {
+    border: solid var(--fourth-color);
+    width: 70%;
+    height: auto;
+}
+
+.dtreck-weather {
+    border: solid var(--fourth-color);
+    width: 70%;
+    height: auto;
+}
+
+.tpoh {
+    border: solid var(--fourth-color);
+    width: 70%;
+    height: auto;
+}
 .coming-soon {
     height: auto;
     width: 80%;
