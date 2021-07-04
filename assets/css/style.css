@@ -330,6 +330,7 @@ header nav ul li a:hover {
             font-size: 4vw;
         }
     }
+<<<<<<< HEAD
     @media screen and (max-width: 575px) {
         header {
             border-top: solid 5px var(--fourth-color);
@@ -381,3 +382,21 @@ header nav ul li a:hover {
             font-size: 3vw;
         }
     }
+=======
+    .b-w-c {
+        flex-wrap: wrap;
+    }
+    .aside {
+        flex: 0 100%;
+    }
+    .my-work {
+        flex: 1 100%;
+    }
+
+    .contact {
+        font-size: 2.5vw;
+        flex: 100%;
+    }
+    
+}
+>>>>>>> 46ff82674c31c8d3167d16ab2db7c9ecd77eab8a
