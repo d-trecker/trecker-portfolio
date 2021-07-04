@@ -132,22 +132,6 @@ header nav ul{
 }
 
 
-/* header nav ul li a {
-    margin: 10px 15px;
-    font-family: storytime;
-    font-size: 2.55vw;
-    padding: 2px 2px;
-    text-shadow: 0 0 10px rgba(255, 143, 31, 0.897);
-}
-header nav ul li a:hover {
-    background-color: rgba(253, 73, 217, 0.158);
-    color: var(--secondary-color);
-    border-radius: 50px;
-    text-shadow: 0 0 20px rgba(180, 178, 178, 0.5);
-} */
-
-
-
 /*----END HEADER ----*/
 
 /*START HERO IMAGE*/
@@ -329,8 +313,17 @@ header nav ul li a:hover {
         .my-work h3 {
             font-size: 4vw;
         }
+        ul {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .coolbtn {
+            font-size: 4vw;
+        }
+        
     }
-<<<<<<< HEAD
     @media screen and (max-width: 575px) {
         header {
             border-top: solid 5px var(--fourth-color);
@@ -382,7 +375,6 @@ header nav ul li a:hover {
             font-size: 3vw;
         }
     }
-=======
     .b-w-c {
         flex-wrap: wrap;
     }
@@ -398,5 +390,4 @@ header nav ul li a:hover {
         flex: 100%;
     }
     
-}
->>>>>>> 46ff82674c31c8d3167d16ab2db7c9ecd77eab8a
+
