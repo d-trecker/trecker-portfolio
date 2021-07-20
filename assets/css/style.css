@@ -375,19 +375,4 @@ header nav ul{
             font-size: 3vw;
         }
     }
-    .b-w-c {
-        flex-wrap: wrap;
-    }
-    .aside {
-        flex: 0 100%;
-    }
-    .my-work {
-        flex: 1 100%;
-    }
-
-    .contact {
-        font-size: 2.5vw;
-        flex: 100%;
-    }
-    
 
